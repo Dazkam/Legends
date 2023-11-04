@@ -12,7 +12,7 @@ export class ConexionService {
     return this._refresh$
   }
 
-  url = "" //Direccion de la Backend
+  url = "127.0.0.1" //Direccion de la Backend
   constructor(private http:HttpClient) { }
 
   consultaDatos():Observable<any>{
